@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Races]
+(
+	[Id] INT NOT NULL  IDENTITY, 
+	[Label] VARCHAR(MAX) NOT NULL
+    CONSTRAINT [PK_Races] PRIMARY KEY ([Id]) 
+)
